@@ -49,8 +49,14 @@ body{
 .width-40{
     width: 40%;
 }
+.width-45{
+    width: 45%;
+}
 .width-50{
     width: 50%;
+}
+.width-55{
+    width: 55%;
 }
 .width-60{
     width: 60%;
@@ -89,6 +95,9 @@ p{
 .pad-7{
     padding: 10px;
 }
+.gap-10{
+    gap:10px;
+}
 .gap-20{
     gap:20px;
 }
@@ -100,6 +109,9 @@ p{
 }
 .gap-80{
     gap:80px;
+}
+.gap-100{
+    gap:100px
 }
 
 .gap-24{
@@ -140,13 +152,38 @@ input{
     border: 1px solid rgba(0,0,0,0.2);
     border-radius: 10px;
     align-items: center;
+    font-size: 16px;
+    line-height: 22px;
 }
 .vcards h3{
     color: #000;
     font-weight: 700;
+    font-size: 20px;
+    line-height: 38px;
 }
 .vcards img{
     width: 100px;
     height: 75px;
     border-radius: 6px;
+}
+.vCenter{
+    display: flex;
+    align-items: center;
+    
+}
+.crCards{
+    background: rgba(0,0,0,0.05);
+    padding: 15px;
+    border-radius: 6px;
+}
+.crCards h3{
+    color: black;
+    font-weight: 700;
+    line-height: 20px;
+}
+.crCards .imgBox > div{
+    align-items: center;
+}
+.crCards .imgBox img{
+    width: 50px;
 }
