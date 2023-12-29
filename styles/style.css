@@ -166,6 +166,7 @@ input{
     height: 75px;
     border-radius: 6px;
 }
+
 .vCenter{
     display: flex;
     align-items: center;
@@ -186,4 +187,10 @@ input{
 }
 .crCards .imgBox img{
     width: 50px;
+}
+
+.flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

@@ -8,7 +8,6 @@ export default function About() {
   return (
     <>
     <main className=''>
-      <Header />
       
       <Footer />
     </main>
