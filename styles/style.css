@@ -150,3 +150,9 @@ input{
     height: 75px;
     border-radius: 6px;
 }
+
+.flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
